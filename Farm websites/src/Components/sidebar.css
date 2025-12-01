@@ -1,0 +1,95 @@
+.sideBar {
+    background-color: rgba(83,195,81,1);
+    width:20%;
+    height: 832px;
+    padding:20px;
+    border-radius: 25px 0 0 25px;
+    margin-left: 10px;
+    align-items: center;
+    
+}
+
+.PowerBtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 30px;
+    gap: 30px;
+   margin-bottom:10px
+}
+
+
+.nav-item  {
+  display: flex;
+  align-items: center;
+  gap:25px;
+  margin-left:20px;
+  padding:7px 7px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.nav-item img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    
+}
+
+ .dashboard {
+    background-color: rgba(236, 255, 236, 0.73);
+    padding: 5px 20px;
+    border-radius: 3.5px;
+    color: rgba(11, 117, 9, 1);
+    }
+
+    .customer-support {
+     display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+    margin-left: 20px;
+   
+    }
+
+    .head {
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+        font-family: 'poppins';
+       }
+
+       .customer-support p {
+        line-height: 1.3;
+        color: white;
+        font-size: 15px;
+       }
+
+
+       .connect {
+          width:128px;
+          height: 40px;
+          color:rgba(83, 195, 81, 1);
+          font-weight: 600;
+          border: none;
+          border-radius: 5px;
+
+       }
+
+       .policy {
+         margin-top: 40px;
+         margin-left: 10px;
+       }
+
+       .policy p {
+        color:white;
+       }

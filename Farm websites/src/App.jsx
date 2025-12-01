@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import sidebar from './Components/sidebar'
-
+import Sidebar from './Components/sidebar'
 import './App.css'
 
 function App() {
 
 
   return (
-    <>
-    
-    </>
+    <div className='main-content'>
+      <div>
+          <Sidebar />
+      </div>
+      </div>
   )
 }
 
